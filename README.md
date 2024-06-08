@@ -17,7 +17,7 @@ Features
 How to Use
 
 1. Enter City Name: Type the name of the city you want to check the weather for.
-2. Get Weather Updates: Click the "Get Weather" button to fetch the latest weather information.
+2. Get Weather Updates: Click the "search" button to fetch the latest weather information.
 3. View Results: The dashboard will display the current temperature, humidity level, and wind speed.
 
 
