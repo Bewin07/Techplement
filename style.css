@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+    color: white;
+    
+}
+body{
+    
+    background-image: url(images/bgimage.jpg);
+    background-size: 100%;  
+}
+p{
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+}
+.status{
+    padding-top: 10px 20px auto;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+.bgimg{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        z-index: 1;
+}
+.title{
+    width: 90%;
+    max-width: 470px;
+    height: 80%;
+    border: 2px rgb(255, 255, 255) solid;
+    margin: 50px auto;  
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    background-color: #1a1a1a;
+
+
+}
+.card{
+    width:90%;
+    max-width: 470px;
+    border: 2px rgb(255, 255, 255) solid;
+    background-image: url("images/cardimg.jpg");
+    background-size: 100%;
+    margin: 50px auto 0;
+    border-radius: 18px;
+    padding: 50px 30px;
+    text-align: center;
+    
+}
+.tempcity{
+    padding-left: 50px;
+    padding-top: 60px;
+}
+.temp,.city{
+    display:-moz-grid-line;
+}
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    border: 2px white solid;
+    outline: 2px;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+}
+.search button{
+    border: 2px white solid;
+    outline: 2px;
+    background-color: rgb(21, 21, 21);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 25px;
+    height: 28px;
+}
+.city{
+    padding: 10px;
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+
+}
+.windimg{
+    height: 75px;
+    width: 75px;
+    margin-right: 50px;
+}
+.weather{
+    display: flex;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 60px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: 2px white solid;
+    border-radius: 10%;
+    padding: 10px;
+    /* background-color: #1a1a1a; */
+}
+.col1{
+    display: flex;
+    /* align-items: center; */
+    text-align: left;
+    border: 2px white solid;
+    border-radius: 10%;
+    padding: 8px;
+    /* background-color: #1a1a1a; */
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.col1 img {
+    height: 60px;
+    width: 50px;
+    margin-right: 10px;
+}
+.humidity,.wind{
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+.crimson-text-bold-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.temp{
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: large;
+}
+
